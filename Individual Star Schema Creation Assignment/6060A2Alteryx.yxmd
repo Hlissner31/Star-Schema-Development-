@@ -1,0 +1,272 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2023.2" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File />
+          <FormatSpecificOptions UseDcm="true" Format="23" RecordLimit="">
+            <ReadCentroids>False</ReadCentroids>
+            <Query>select `hlissner_dillards_relational_model_lmu`.`sku`.* 
+from `hlissner_dillards_relational_model_lmu`.`sku`</Query>
+            <TableStyle>Quoted</TableStyle>
+            <PostSQL />
+            <CacheData>False</CacheData>
+            <Table />
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <Connection DcmType="ConnectionId">08628389-699f-4db5-9909-2b635077ee5d</Connection>
+            <NoProgress>True</NoProgress>
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dcm:6060A2 connection — hlissner
+Query=select `hlissner_dillards_re...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="sku" source="File: select `hlissner_dillards_relational_model_lmu`.`sku`.* &#xA;from `hlissner_dillards_relational_model_lmu`.`sku`" type="Int32" />
+            <Field name="dept_id" source="File: select `hlissner_dillards_relational_model_lmu`.`sku`.* &#xA;from `hlissner_dillards_relational_model_lmu`.`sku`" type="Int32" />
+            <Field name="classic" size="3" source="File: select `hlissner_dillards_relational_model_lmu`.`sku`.* &#xA;from `hlissner_dillards_relational_model_lmu`.`sku`" type="String" />
+            <Field name="UPC" size="15" source="File: select `hlissner_dillards_relational_model_lmu`.`sku`.* &#xA;from `hlissner_dillards_relational_model_lmu`.`sku`" type="String" />
+            <Field name="style" size="12" source="File: select `hlissner_dillards_relational_model_lmu`.`sku`.* &#xA;from `hlissner_dillards_relational_model_lmu`.`sku`" type="String" />
+            <Field name="color" size="12" source="File: select `hlissner_dillards_relational_model_lmu`.`sku`.* &#xA;from `hlissner_dillards_relational_model_lmu`.`sku`" type="String" />
+            <Field name="size" size="10" source="File: select `hlissner_dillards_relational_model_lmu`.`sku`.* &#xA;from `hlissner_dillards_relational_model_lmu`.`sku`" type="String" />
+            <Field name="packsize" source="File: select `hlissner_dillards_relational_model_lmu`.`sku`.* &#xA;from `hlissner_dillards_relational_model_lmu`.`sku`" type="Int32" />
+            <Field name="vendor" size="7" source="File: select `hlissner_dillards_relational_model_lmu`.`sku`.* &#xA;from `hlissner_dillards_relational_model_lmu`.`sku`" type="String" />
+            <Field name="brand" size="9" source="File: select `hlissner_dillards_relational_model_lmu`.`sku`.* &#xA;from `hlissner_dillards_relational_model_lmu`.`sku`" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings>
+        <Position x="186" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">""</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File />
+          <FormatSpecificOptions UseDcm="true" Format="23" RecordLimit="">
+            <ReadCentroids>False</ReadCentroids>
+            <Query>select `hlissner_dillards_relational_model_lmu`.`departments`.* 
+from `hlissner_dillards_relational_model_lmu`.`departments`</Query>
+            <TableStyle>Quoted</TableStyle>
+            <PostSQL />
+            <CacheData>False</CacheData>
+            <Table />
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <Connection DcmType="ConnectionId">08628389-699f-4db5-9909-2b635077ee5d</Connection>
+            <NoProgress>True</NoProgress>
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dcm:6060A2 connection — hlissner
+Query=select `hlissner_dillards_re...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="dept_id" source="File: select `hlissner_dillards_relational_model_lmu`.`departments`.* &#xA;from `hlissner_dillards_relational_model_lmu`.`departments`" type="Int32" />
+            <Field name="deptdesc" size="65535" source="File: select `hlissner_dillards_relational_model_lmu`.`departments`.* &#xA;from `hlissner_dillards_relational_model_lmu`.`departments`" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="270" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="dept_id" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="dept_id" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_dept_id" selected="False" rename="Right_dept_id" input="Right_" />
+                <SelectField field="Right_deptdesc" selected="True" rename="Right_deptdesc" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings>
+        <Position x="390" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">""</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="JupyterCode">
+        <Position x="546" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <WorkflowName>c:\users\henry\documents\6060a2alteryx.yxmd</WorkflowName>
+          <JupyterProduction>false</JupyterProduction>
+          <vEnvName>designerbasetools_venv</vEnvName>
+          <DefaultVenv>1</DefaultVenv>
+          <productionModeScript />
+          <Port>49227</Port>
+          <JupyterGuidDir>13580598c6a697a3b7dca6215d4d3b3c</JupyterGuidDir>
+          <JupyterGuidCopy />
+          <LastExecutedByEngineVersion>2023.2.1.89</LastExecutedByEngineVersion>
+          <Notebook><![CDATA[{"cells":[{"metadata":{"ayx":{"cell_css":"border: 3px solid #357; margin: 4px; background: #fbffff","contents_keyword":"Alteryx.help()","label":"info"}},"cell_type":"markdown","source":["Run `Alteryx.help()` for info about useful functions.  \n","i.e., `Alteryx.read(\"#1\")`, `Alteryx.write(df,1)`, `Alteryx.getWorkflowConstant(\"Engine.WorkflowDirectory\")`"]},{"metadata":{"ayx":{"cell_css":"border: 1px solid #58a; margin: 2px;","contents_keyword":"installPackages","label":"deps"},"scrolled":true},"cell_type":"code","source":["# List all non-standard packages to be imported by your \n","# script here (only missing packages will be installed)\n","from ayx import Package\n","Package.installPackages(['pandas','numpy','sqlalchemy', 'mysql-connector-python'])"],"execution_count":1,"outputs":[]},{"metadata":{},"cell_type":"code","source":["from ayx import Alteryx\n","from sqlalchemy import create_engine\n","import pandas as pd\n"],"execution_count":2,"outputs":[]},{"metadata":{"scrolled":true},"cell_type":"code","source":["df_out = Alteryx.read(\"#1\")\n"],"execution_count":3,"outputs":[]},{"metadata":{"scrolled":true},"cell_type":"code","source":["df_out"],"execution_count":4,"outputs":[]},{"metadata":{},"cell_type":"code","source":["df_test = df_out.iloc[0:1000]"],"execution_count":5,"outputs":[]},{"metadata":{},"cell_type":"code","source":["df_test"],"execution_count":6,"outputs":[]},{"metadata":{},"cell_type":"code","source":["# Access environment variables\n","\n","host = 'hlissnerbsanaws.craqo8um29w9.us-east-2.rds.amazonaws.com'\n","user = 'bsan6060'\n","pw = 'awsBSAN6060'\n","db = '6060A2'\n","\n","con = create_engine(f'mysql+mysqlconnector://{user}:{pw}@{host}/{db}')"],"execution_count":7,"outputs":[]},{"metadata":{},"cell_type":"code","source":["table_name = 'dim_sku'"],"execution_count":8,"outputs":[]},{"metadata":{},"cell_type":"code","source":["df_out.to_sql(table_name, con=con, if_exists='append', chunksize = 5000, index=False)"],"execution_count":9,"outputs":[]}],"metadata":{"kernelspec":{"name":"designerbasetools_venv","display_name":"designerbasetools_venv","language":"python"},"language_info":{"name":"python","version":"3.8.16","mimetype":"text/x-python","codemirror_mode":{"name":"ipython","version":3},"pygments_lexer":"ipython3","nbconvert_exporter":"python","file_extension":".py"}},"nbformat":4,"nbformat_minor":2}]]></Notebook>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxJupyterPluginEngine.dll" EngineDllEntryPoint="AlteryxJupyter" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output26" />
+      <Destination ToolID="10" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="10" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Join" />
+      <Destination ToolID="11" Connection="Input2" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="11" Connection="Output26" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>6060A2Alteryx</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="a9602cbd-e475-45db-ae19-49418c21f6ec" />
+      <Telemetry>
+        <PreviousWorkflowId value="a3d47719-f7c8-4e5a-9ec4-778f62b397e5" />
+        <OriginWorkflowId value="a3d47719-f7c8-4e5a-9ec4-778f62b397e5" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
